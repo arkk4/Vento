@@ -18,24 +18,24 @@ const CONFIG = {
   // └─┘┴ ┴└─┘┴└─┘└─┘
 
   // General
-  name: 'my friend',
-  imageBackground: true,
+  name: 'BN-WORKER',
+  imageBackground: false,
   openInNewTab: true,
 
   // Greetings
-  greetingMorning: 'Good morning,',
-  greetingAfternoon: 'Hello,',
-  greetingEvening: 'Good night,',
-  greetingNight: 'You should go to sleep,',
+  greetingMorning: 'Доброе утро,',
+  greetingAfternoon: 'Привет,',
+  greetingEvening: 'Добрый вечер,',
+  greetingNight: 'А не сходить-ли тебе поспать,',
 
   // Weather
   // Use openweathermap.org
-  weatherKey: 'XXX',
-  weatherIcons: 'OneDark', // 'Nord', 'Dark', 'White'
+  weatherKey: '182ffb1c9290aebf85c92018414404e5',
+  weatherIcons: 'Nord', // 'Nord', 'Dark', 'White'
   weatherUnit: 'C',
   // Use https://www.latlong.net/
-  weatherLatitude: 'XXX',
-  weatherLongitude: 'XXX',
+  weatherLatitude: '47.097134',
+  weatherLongitude: '37.543365',
   
 
   // ┌─┐┌─┐┬─┐┌┬┐┌─┐
@@ -46,21 +46,21 @@ const CONFIG = {
   cards: [
     {
       id: '1',
-      name: 'Github',
-      icon: 'github',
-      link: 'https://github.com/',
+      name: 'GW1.SHEV309',
+      icon: 'server',
+      link: 'http://gw1.shev309.blacknode.tech:8080/',
     },
     {
       id: '2',
-      name: 'Mail',
-      icon: 'mail',
-      link: 'https://mail.google.com/',
+      name: 'GW2.SHEV309',
+      icon: 'server',
+      link: 'http://gw2.shev309.blacknode.tech:8080/',
     },
     {
       id: '3',
-      name: 'Todoist',
-      icon: 'twitch',
-      link: 'https://twitch.tv/',
+      name: 'GW3.SCHEV309',
+      icon: 'server',
+      link: 'http://gw3.shev309.blacknode.tech:8080/',
     },
     {
       id: '4',
